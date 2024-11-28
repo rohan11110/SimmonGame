@@ -6,7 +6,15 @@ let userSeq =[];
 let btns = ["box1","box2", "box3","box4"];
 let currBox = document.querySelector(".box1 , .box2");
 
+let head = document.querySelector(".game");
 
+head.addEventListener("click", function(){
+    if(started == false){
+        started = true;
+
+        levelup();
+    }
+});
 document.addEventListener("keydown", function(){
     if(started == false){
         started = true;
