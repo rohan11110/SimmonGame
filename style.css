@@ -1,7 +1,7 @@
 
 .col{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: 2px solid black;
     margin-block: 10px;
     border-radius: 20px;
@@ -14,6 +14,7 @@
     
 }
 .box{
+    
    display: flex;
    flex-direction: row;
    gap: 30px;
@@ -28,6 +29,7 @@
 .info{
    display: grid;
    place-items: center;
+   margin-right: 8rem;
     
 
 }
@@ -62,3 +64,5 @@
 .gameover{
     background: red;
 }
+
+

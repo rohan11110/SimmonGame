@@ -61,7 +61,7 @@ function checkGame(idx){
      setTimeout(function(){
         gameover.style.backgroundColor = "white";
      }, 150);
-     headline.innerText = `GAME OVER! your score is ${level},Press any Key to restart`;
+     headline.innerText = `GAME OVER! your score is ${level},Press here to restart`;
      reset();
    }
 }
